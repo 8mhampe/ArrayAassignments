@@ -5,11 +5,11 @@ let speeds = [93,99,95,96,97,99];
 let pings = [45,60,120,80,155,160,220,110];
 let bits = [1,1,0,1,0,0,1,0,0,1];
 
-fucntion example1(){
-	let ounces[];
+function example1(){
+	let ounces =[];
 	for(let z=0; z< oz.length; z++){
 		if(oz[z] <= 20){
-		ounce.push(oz[z]);
+			ounces.push(oz[z]);
 		}
 	}
 	return ounces;
@@ -27,7 +27,7 @@ function example2(){
 function example3(){
 	let avg=0
 	for(p=0; p<pings.length; p++){
-	avg=avg+pings[p];	
+	avg=avg+pings[p];
 	}
 	avg=avg/pings.length;
 	return avg
