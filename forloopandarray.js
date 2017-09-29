@@ -41,12 +41,33 @@ function example4(){
 	}
 }
 
+let first = [2,4,6,8,10]
+
+let second = [20,40,60,80,100]
+
+let third = []
+
+let fourth = []
+for(let f=0;f<first.length;f++){
+	third.push(first[f]+second[f]);
+}
+for(let t=0;t<first.length;t++){
+	fourth.push(first[t]);
+}
+for(let c=0;c<first.length;c++){
+	fourth.push(second[c]);
+
+}
+
+
 //Creating test code
 function main(){
     console.log(example1());
     console.log("The total # of bits is "+example2());
     console.log("Your average ping for internet is "+example3());
     console.log("The first pitch thrown above 95 was pitch-index "+example4());
+		console.log(third);
+		console.log(fourth);
 }
 //run test code with CTRL + SHIFT + B
 main();
